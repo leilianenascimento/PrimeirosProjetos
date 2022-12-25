@@ -1,0 +1,42 @@
+/Projeto para mostrar a media dos alunos, a sua classificação e media final da classe
+
+import java.util.Scanner;
+
+public class Testes {
+
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float contagem, soma, media = 0, nota1 = 0, nota2=0, mediaDaClasse=0, totalDaClasse = 0;;
+        int totalReprovado = 0,totalAprovado = 0, totalExame=0;
+
+
+        for (contagem =1; contagem <=6; contagem++) {
+            System.out.println("Informe as duas notas do aluno: " +contagem);
+            nota2=teclado.nextFloat();
+            nota1=teclado.nextFloat();
+            media = (nota1+nota2) / 2;}
+
+        System.out.println("Media do aluno " +  media);
+        if (media <=3) {
+            totalReprovado=totalReprovado+1;
+            System.out.println("Status Reprovado");
+        } else if ( media >3 && media <=7) {
+            totalExame= totalExame+1;
+            System.out.println("Status Exame");
+
+        }
+        else {
+            totalAprovado=totalAprovado+1;
+            System.out.println("Status Aprovado");
+
+        }
+        totalDaClasse = totalDaClasse + media;
+
+        System.out.println("Total de alunos aprovados: " +totalAprovado);
+        System.out.println("Total de alunos Exame: " +totalExame);
+        System.out.println("Total de alunos Reprovados: " +totalReprovado);
+        mediaDaClasse = totalDaClasse/6;
+        System.out.println("media da classe: " + mediaDaClasse);
+    }
+}
