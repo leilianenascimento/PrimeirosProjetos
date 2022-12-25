@@ -1,0 +1,24 @@
+
+/ Programa para tirar a media de 3 notas
+import java.util.Scanner;
+
+public class Excercico {
+    public static void main(String[] args) {
+      float nota_1, nota_2, nota_3,media;
+      Scanner entrada;
+      entrada = new Scanner(System.in);
+        System.out.println("Digite a nota 1: ");
+        nota_1 = entrada.nextFloat();
+        System.out.println("Digite a nota 2: ");
+        nota_2 = entrada.nextFloat();
+        System.out.println("Digite a nota 3: ");
+        nota_3 = entrada.nextFloat();
+        media = (nota_1 + nota_2 + nota_3) /3;
+
+        if ( media >= 7) System.out.println("Aluno Aprovado media: "+ media);
+        if (media >= 3 && media < 7)System.out.println("Aluno Exame: "+ media);
+        if (media >= 0 && media <3) System.out.println("Aluno Reprovado: " + media);
+        {
+
+        }
+    }}
