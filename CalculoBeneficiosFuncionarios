@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class CalculoBeneficiosFuncionarios {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        int contagem, codigo;
+        float valorHora, salariominimo = 450, salarioInicial, salarioFinal,numeroHorasTrabalhadas, auxulioAlim;
+        char turno, categoria = 0;
+
+        for (contagem = 1; contagem <= 10; contagem++) {
+            System.out.println("Informe o codigo do funcionario nº" + contagem);
+            codigo = teclado.nextInt();
+            System.out.println("Informe o numero de hora trabalhada");
+            numeroHorasTrabalhadas = teclado.nextInt();
+            System.out.println("Informe o turno do funcionario (M,V,N)");
+            turno = teclado.next().charAt(0);
+
+
+            while (turno != 'M' && turno != 'N' & turno != 'V') {
+                System.out.println("Turno Invalido, informe o turno novamente");
+                turno = teclado.next().charAt(0);
+            }
+            System.out.println("Informe a catergoria do funcionario (G,O)");
+            categoria = teclado.next().charAt(0);
+            while (categoria != 'G' && categoria != 'O') {
+                System.out.println("Categoria invalida, informe a catergoria novamente");
+                categoria = teclado.next().charAt(0);
+            }
+            if (categoria == 'G') {
+                if (turno == 'N')
+                    valorHora = salariominimo * 18 / 100;}
+                 else {
+                    valorHora = salariominimo * 15 / 100;
+                }
+                if (turno == 'N') {
+                    valorHora = salariominimo * 13 / 100;
+                } else {
+                    valorHora = salariominimo * 10 / 100;
+                }
+                salarioInicial= numeroHorasTrabalhadas * valorHora;
+                if (salarioInicial <300) {
+                    auxulioAlim = salarioInicial*20/100;}
+                    else
+                        if (salarioInicial<600) {
+                        auxulioAlim = salarioInicial*15/100;}
+                        else {
+                            auxulioAlim = salarioInicial*5/100;}
+                        salarioFinal=salarioInicial+auxulioAlim;
+
+                System.out.println(" Codigo: " +codigo);
+                System.out.println(" Numero de horas trabalhadas: " +numeroHorasTrabalhadas);
+                System.out.println("Valor da hora trabalhada: " +valorHora);
+                System.out.println("Salario Inicial: " +salarioInicial);
+                System.out.println("Auxilio Alimentação: " +auxulioAlim);
+                System.out.println(" Salario final: " +salarioFinal);
+
+                    {
+
+                    }
+
+                }
+            }
+        }
+
