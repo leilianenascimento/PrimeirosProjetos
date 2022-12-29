@@ -1,0 +1,18 @@
+/Programa para imprimir os10 primeiros numeros da sequencia de fibonacci8
+
+public class SequenciaFibonacci {
+    public static void main(String[] args) {
+       int contagem, atual, proximo, resultado;
+
+        atual=0;
+        proximo=1;
+        System.out.println(atual);
+        System.out.println(proximo);
+        for (contagem=3; contagem<=10; contagem++) {
+            resultado = atual + proximo;
+            atual = proximo;
+            proximo = resultado;
+
+            System.out.println(resultado);
+
+        }}}
