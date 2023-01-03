@@ -1,0 +1,39 @@
+//Esse programa é para ler duas notas de um aluno, calcular a media e o status de aprovação. Calcular tambem o total do status em que cada aluno esta.
+
+import java.util.Scanner;
+
+public class MediaDosAlunos {
+    public static void main(String[] args) {
+        int contagem, nota1 = 0, nota2 = 0, totalAprovados = 0, totalReprovados = 0, totalExame = 0, soma;
+        float mediaIndividual = 0, mediaClasse;
+
+        Scanner teclado = new Scanner(System.in);
+
+        for (contagem = 1; contagem <= 6; contagem++) {
+            System.out.println("Informe a 1º nota do aluno nº" + contagem);
+            nota1 = teclado.nextInt();
+            System.out.println("Informe a 2º nota do aluno nº" + contagem);
+            nota2 = teclado.nextInt();
+
+            soma = nota1 + nota2;
+            mediaIndividual = soma / 2;
+            System.out.println("Media das duas notas: " + mediaIndividual);
+
+            if (mediaIndividual <= 3) {
+                totalReprovados = totalReprovados + 1;
+
+                System.out.println("Está Reprovado");
+            } else if (mediaIndividual >= 3 & mediaIndividual <= 7) {
+                totalExame = totalExame + 1;
+                System.out.println("Está no Exame");
+            } else {
+                totalAprovados = totalAprovados + 1;
+                System.out.println("Está Aprovado");
+            }
+        }
+
+        System.out.println("Total de alunos Aprovados: " + totalAprovados);
+        System.out.println("Total de alunos Reprovados: " + totalReprovados);
+        System.out.println("Total de alunos Exame: " + totalExame);
+    }
+}
