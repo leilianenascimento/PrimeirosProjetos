@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Filmes - Romance</title>
+    <link rel= "Stylesheet" href="style.css"/>
+
+</head>
+<div><BODY background="cartao-de-dia-dos-namorados-com-espaco-de-copia-moldura-fundo-de-madeira-branco-com-coracoes-vermelhos-conceito-de-
+dia-dos.avif"></BODY> </html><div></div>
+<body>
+    
+    <h1>Os melhores Filmes para assistir</h1>
+    <h3>1 - Um amor para recordar</h3>
+    <p>
+        <strong>Sinopse:</strong> Um jovem delinquente do ensino médio é obrigado a ser o tutor de uma escola de baixa
+        renda.
+        Lá, ele se apaixona pela filha do pastor e vive uma paixão cheia de diferenças e surpresas.
+        <p><img src="1 Um amor para recordar.jpg"></p>
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qBWYkMo1iiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--<p>Acesse o trailer aqui:
+        <a href="https://www.youtube.com/watch?v=Ma9-zLENTdM" target="_blank">Um amor para recordar</a>
+    </p>-->
+    
+
+    <h3>2 - Simplesmente acontece</h3>
+    <p>
+        <strong>Sinopse:</strong> Os jovens britânicos Rosie (Lily Collins) e Alex (Sam Claflin) são amigos inseparáveis
+        desde a infância,
+        experimentando juntos as dificuldades amorosas, familiares e escolares. Embora exista uma atração entre eles,
+        os dois mantêm a amizade acima de tudo. Um dia, Alex decide aceitar um convite para estudar medicina em Harvard,
+        nos Estados Unidos.
+        A distância entre eles faz com que nasçam os primeiros segredos,enquanto cada um encontra outros namorados e
+        namoradas. Mas o destino
+        continua atraindo Rosie e Alex um ao outro.
+        <p><img src="1 simplesmente acontece.jpg"></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hJfH5j54Qzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+    <!--<p>Acesse o trailer aqui:
+        <a href="https://www.youtube.com/watch?v=ZUqU9SQOt10" target="_blank">Simplesmente acontece</a>
+    </p>-->
+    <p> Você pode tambem clicar no youtube</p>
+    <h3> 3- A escolha</h3>
+    <p>
+        <strong>Sinopse:</strong> 
+        Travis Parker (Benjamin Walker) tem uma vida confortável, um bom emprego, amigos leais e uma casa em pequena cidade costeira. 
+        Ele busca diariamente viver plenamente e acredita que um relacionamento sério limitaria o seu estilo de vida.
+         Isso até que Gabby Holland (Teresa Palmer) se muda para a casa ao lado. Mesmo que ela tenha um namorado, a moça o instiga logo 
+         de cara e faz com que os dois se entreguem a uma relação que nenhum deles esperava. 
+        Baseado em romance do autor Nicholas Sparks.
+        <p><img src="2 a escolha.png"></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nWPM1jTnuuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+    <p>Acesse o trailer aqui:
+        <a href="https://www.youtube.com/watch?v=37_3Do45TkY" target="_blank">A escolha</a>
+    </p>
+    <h3> <mark style="background-color: antiquewhite;"> para séries que você vai adorar </mark> 
+        <a href="pagina2.html" rel="next">Click aqui</a></h3>
+</body>
+</html>
